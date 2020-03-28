@@ -14,7 +14,7 @@ function createWindow(){
     })
 
     mainWindow.loadURL(url.format({
-        pathname: path.join(__dirname, '/gui/gui.html'),
+        pathname: path.join(__dirname, '/gui-1/gui-1.html'),
         protocol: 'file',
         slashes: true
     }))
